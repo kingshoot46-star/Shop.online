@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Tech Store</title>
+<style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4; }
+    header { background:#333; color:white; padding:10px 0; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    .container { display:flex; flex-wrap:wrap; justify-content:center; margin:20px; }
+    .item { background:white; margin:15px; padding:15px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.2); width:200px; text-align:center; }
+    .item img { width:100%; height:auto; border-radius:5px; }
+    .price { font-weight:bold; margin-top:10px; }
+    h2 { text-align:center; margin-top:30px; }
+</style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#airpods">AirPods</a>
+        <a href="#phones">Phones</a>
+        <a href="#tablets">Tablets</a>
+        <a href="#macs">Macs</a>
+    </nav>
+</header>
+
+<h2 id="airpods">AirPods</h2>
+<div class="container">
+    <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/AirPods_2nd_Gen.png" alt="AirPods">
+        <div>AirPods</div>
+        <div class="price">$20</div>
+    </div>
+</div>
+
+<h2 id="phones">Phones</h2>
+<div class="container">
+    <div class="item">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-17-pro-green-select-2025?wid=200&hei=200&fmt=png-alpha" alt="iPhone 17 Pro">
+        <div>iPhone 17 Pro</div>
+        <div class="price">$700</div>
+    </div>
+    <div class="item">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-gold-select-2024?wid=200&hei=200&fmt=png-alpha" alt="iPhone 16 Pro">
+        <div>iPhone 16 Pro</div>
+        <div class="price">$400</div>
+    </div>
+    <div class="item">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-blue-select-2023?wid=200&hei=200&fmt=png-alpha" alt="iPhone 15 Pro">
+        <div>iPhone 15 Pro</div>
+        <div class="price">$300</div>
+    </div>
+    <div class="item">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-purple-select-2022?wid=200&hei=200&fmt=png-alpha" alt="iPhone 14 Pro">
+        <div>iPhone 14 Pro</div>
+        <div class="price">$200</div>
+    </div>
+    <div class="item">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-silver-select-2021?wid=200&hei=200&fmt=png-alpha" alt="iPhone 13 Pro">
+        <div>iPhone 13 Pro</div>
+        <div class="price">$180</div>
+    </div>
+    <div class="item">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-graphite-select-2020?wid=200&hei=200&fmt=png-alpha" alt="iPhone 12 Pro">
+        <div>iPhone 12 Pro</div>
+        <div class="price">$160</div>
+    </div>
+</div>
+
+<h2 id="tablets">Tablets</h2>
+<div class="container">
+    <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/IPad_Pro_2021.png/200px-IPad_Pro_2021.png" alt="Tablet">
+        <div>Tablet 1</div>
+        <div class="price">$300</div>
+    </div>
+</div>
+
+<h2 id="macs">Macs</h2>
+<div class="container">
+    <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/MacBook_Air_M1_2020.png/200px-MacBook_Air_M1_2020.png" alt="Mac">
+        <div>Mac 1</div>
+        <div class="price">$1200</div>
+    </div>
+</div>
+
+</body>
+</html>
